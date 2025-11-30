@@ -94,6 +94,9 @@ npm start
 ### Video Demo Link : 
 https://drive.google.com/file/d/1NlxhzEKWw6GA4C4vxHOChOMIM3SEW3ne/view?usp=sharing
 
+### PPT Link :
+https://docs.google.com/presentation/d/1H3CVY89nvXQDiUJbJpePZb1Ne3XtVx6D/edit?usp=sharing&ouid=108657080292860287949&rtpof=true&sd=true
+
 
 ### Thank You 
 
