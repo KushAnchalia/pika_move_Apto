@@ -36,7 +36,7 @@ export default function EncryptedUpload() {
 
       setLogs((l) => [...l, "Uploading encrypted file to backend..."]);
 
-      const resp = await fetch("https://pika-move-apto-7.onrender.com/upload", {
+      const resp = await fetch("http://localhost:4000/upload", {
         method: "POST",
         body: formData,
       });
@@ -63,12 +63,23 @@ export default function EncryptedUpload() {
     setLoading(false);
   };
 
+const handleShareWhatsApp = () => {
+  if (!qrCode) return;
+
+  const message = `🎉 Your AI Vault QR Code is ready!\n\nScan this QR to verify and view your encrypted AI mood.\n\n${qrCode}\n\nShared via AI Vault 🔒`;
+
+  const url = `https://wa.me/?text=${encodeURIComponent(message)}`;
+  window.open(url, "_blank");
+};
+
+
   return (
     <div style={{ minHeight: "100vh", display: "flex", justifyContent: "center", alignItems: "start", background: "#f0f4f8", padding: "40px" }}>
       <div style={{ width: "100%", maxWidth: "700px", background: "#fff", borderRadius: "12px", boxShadow: "0 8px 20px rgba(0,0,0,0.1)", padding: "30px" }}>
         <h2 style={{ textAlign: "center", fontSize: "24px", fontWeight: "bold", marginBottom: "20px" }}>AI Vault - Encrypted Upload</h2>
 
         <input type="file" onChange={handleFileChange} style={{ marginBottom: "10px", width: "100%" }} />
+        
         <button
           onClick={handleUpload}
           disabled={loading || !file}
@@ -104,6 +115,23 @@ export default function EncryptedUpload() {
                 <img src={qrCode} alt="QR Code" style={{ width: "200px", height: "200px", borderRadius: "10px", boxShadow: "0 4px 12px rgba(0,0,0,0.15)" }} />
               </div>
             )}
+
+            <button
+              onClick={handleShareWhatsApp}
+              style={{
+                width: "100%",
+                padding: "12px",
+                background: "#25D366",
+                color: "#fff",
+                border: "none",
+                borderRadius: "6px",
+                cursor: "pointer",
+                fontWeight: "bold",
+                marginTop: "20px"
+              }}
+            >
+              Share on WhatsApp
+            </button>
 
             <div style={{ marginTop: "20px" }}>
               <h4>Logs:</h4>
