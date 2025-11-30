@@ -48,10 +48,14 @@ pip install -r requirements.txt
 cp .env.example .env
  Then add your keys
 
-OPENAI_API_KEY=sk-...
+OPENAI_API_KEY=your-openai-api-key
+
 GEMINI_API_KEY=your-gemini-key
+
 GETIMG_API_KEY=your-getimg-key
+
 PINATA_API_KEY=your_pinata_key
+
 PINATA_API_SECRET=your_pinata_secret
 
 ### Run Backend 
@@ -84,7 +88,7 @@ npm start
 <img width="618" height="565" alt="image" src="https://github.com/user-attachments/assets/b964b7ad-22e4-4a10-919a-b6339afdba48" />
 <img width="774" height="682" alt="image" src="https://github.com/user-attachments/assets/ce032c32-4bd2-4a9d-b503-8309a2ec7e64" />
 
-### Architecture Link 
+### Architecture Diagram 
 <img width="1340" height="789" alt="image" src="https://github.com/user-attachments/assets/899d714f-f4d8-4978-8160-a36fedb3c752" />
 
 ### Video Demo Link : 
