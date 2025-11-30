@@ -36,7 +36,7 @@ export default function EncryptedUpload() {
 
       setLogs((l) => [...l, "Uploading encrypted file to backend..."]);
 
-      const resp = await fetch("http://localhost:4000/upload", {
+      const resp = await fetch("https://pika-move-apto-6-8sct.onrender.com/upload", {
         method: "POST",
         body: formData,
       });
