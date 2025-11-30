@@ -11,12 +11,6 @@ Perfect for showcasing end-to-end encrypted workflows, AI orchestration, and Web
 
 > Try it now → [https://pika-move-apto.vercel.app](https://pika-move-apto.vercel.app)
 
-### 🖼 Project Screenshot
-
-![AI Vault Demo](https://raw.githubusercontent.com/your-username/ai-vault/main/screenshots/demo.png "AI Vault in action – Upload, AI processing, and blockchain-style result")
-> *Upload a file → Get AI-generated image + mock Aptos TX + IPFS pin*
-
-*(Replace the link above with your actual screenshot hosted on GitHub, ImgBB, or Vercel)*
 
 ## 🚀 Features
 
@@ -84,21 +78,18 @@ npm install
 npm start
 
 
-The Expected Output 
+### The Expected Output 
 
 
 <img width="618" height="565" alt="image" src="https://github.com/user-attachments/assets/b964b7ad-22e4-4a10-919a-b6339afdba48" />
 <img width="774" height="682" alt="image" src="https://github.com/user-attachments/assets/ce032c32-4bd2-4a9d-b503-8309a2ec7e64" />
 
-Architecture Link 
+### Architecture Link 
 <img width="1340" height="789" alt="image" src="https://github.com/user-attachments/assets/899d714f-f4d8-4978-8160-a36fedb3c752" />
 
-Video Demo Link : 
+### Video Demo Link : 
 https://drive.google.com/file/d/1NlxhzEKWw6GA4C4vxHOChOMIM3SEW3ne/view?usp=sharing
 
 
-
-
-
- s=your-username/ai-vault&type=Date) LicenseMIT © 2025Built with  using React, Python, and a lot of AI magic.
+### Thank You 
 
