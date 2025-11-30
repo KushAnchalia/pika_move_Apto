@@ -1,0 +1,40 @@
+/* ---- CYBER BACKGROUND GRID ---- */
+.bg-cyber-grid {
+  background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* ---- GLASS PANEL ---- */
+.glass-card {
+  backdrop-filter: blur(22px);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0px 0px 40px rgba(0, 255, 255, 0.1);
+}
+
+/* ---- NEON GLOW ---- */
+.shadow-glow {
+  box-shadow: 0 0 15px rgba(0, 255, 200, 0.6);
+}
+
+/* ---- AI Image Pulse ---- */
+.aiPulse {
+  animation: aiPulse 1.5s infinite;
+}
+
+@keyframes aiPulse {
+  0% { box-shadow: 0 0 0px rgba(0, 255, 150, 0.4); }
+  50% { box-shadow: 0 0 20px rgba(0, 255, 200, 0.9); }
+  100% { box-shadow: 0 0 0px rgba(0, 255, 150, 0.4); }
+}
+
+/* ---- QR bounce ---- */
+.qrBounce {
+  animation: qrBounce 1.4s ease-in-out infinite;
+}
+
+@keyframes qrBounce {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+}

@@ -1,0 +1,10 @@
+[package]
+name = "EncryptedArtVault"
+version = "1.0.0"
+authors = ["kush"]
+
+[addresses]
+aivault = "0x90553173d5c6397a768ea84230846354dd0e5f8dd813df6c91f30a08ce16fc2c"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
