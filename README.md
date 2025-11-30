@@ -29,21 +29,6 @@ Perfect for showcasing end-to-end encrypted workflows, AI orchestration, and Web
 - QR code generation for the result
 - Beautiful, responsive React frontend
 
-## 📂 Project Structure
-
-├── ai-worker/                  # Python AI backend
-│   ├── server.py               # Main FastAPI/Flask server
-│   ├── requirements.txt
-│   └── .env                    # (gitignored)
-├── frontend/                   # React + Vite frontend
-│   ├── src/
-│   │   └── components/
-│   │       └── EncryptedUpload.jsx
-│   ├── public/
-│   └── package.json
-├── screenshots/                # Put your demo images here
-├── README.md
-└── .gitignore
 
 ## 🛠 How to Run Locally
 
@@ -100,6 +85,8 @@ npm start
 
 
 The Expected Output 
+
+
 <img width="618" height="565" alt="image" src="https://github.com/user-attachments/assets/b964b7ad-22e4-4a10-919a-b6339afdba48" />
 <img width="774" height="682" alt="image" src="https://github.com/user-attachments/assets/ce032c32-4bd2-4a9d-b503-8309a2ec7e64" />
 
