@@ -1,8 +1,11 @@
 {
   "name": "aivault-frontend",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "axios": "^1.6.7",
