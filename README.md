@@ -54,32 +54,20 @@ Perfect for showcasing end-to-end encrypted workflows, AI orchestration, and Web
 
 ### 1. Backend (Python AI Worker)
 
-```bash
-# Clone and enter project
+ Clone and enter project
 git clone https://github.com/your-username/ai-vault.git
 cd ai-vault/ai-worker
 
-# Create virtual env
+ Create virtual env
 python -m venv venv
 source venv/bin/activate    # Windows: venv\Scripts\activate
 
-# Install dependencies
+ Install dependencies
 pip install -r requirements.txt
 
-# Create .env file (see template below)
+ Create .env file (see template below)
 cp .env.example .env
-# Then add your keys
-
-# Run server
-python server.py
-
-Backend runs at → http://localhost:40002. Frontend (React)bash
-
-cd ../frontend
-npm install
-npm start
-
-Frontend runs at → http://localhost:3000Required API Keys (.env in ai-worker/)env
+ Then add your keys
 
 OPENAI_API_KEY=sk-...
 GEMINI_API_KEY=your-gemini-key
@@ -87,22 +75,43 @@ GETIMG_API_KEY=your-getimg-key
 PINATA_API_KEY=your_pinata_key
 PINATA_API_SECRET=your_pinata_secret
 
- Never commit your .env file! Deployed URLs (Always Up-to-Date)Service
-URL
-Status
-Frontend
-https://pika-move-apto.vercel.app
- Live
-Backend API
-https://pika-move-apto-7.onrender.com
- Live
-AI Worker
-https://pika-move-apto-6-8sct.onrender.com
- Live
+### Run Backend 
 
- ContributingContributions are very welcome! Feel free to:Open issues
-Submit PRs for bugs, features, or UI improvements
-Suggest better AI prompts or blockchain integrations
+ Go to the backend folder
+cd backend
 
- Star History![Star History Chart](https://api.star-history.com/svg?repos=your-username/ai-vault&type=Date) LicenseMIT © 2025Built with  using React, Python, and a lot of AI magic.
+ Install dependencies
+npm install
+
+ Start the server
+npm start
+
+
+### Run Frontend
+
+ Go to the frontend folder
+cd frontend
+
+ Install dependencies (only needed the first time or after changes)
+npm install
+
+ Start the development server
+npm start
+
+
+The Expected Output 
+<img width="618" height="565" alt="image" src="https://github.com/user-attachments/assets/b964b7ad-22e4-4a10-919a-b6339afdba48" />
+<img width="774" height="682" alt="image" src="https://github.com/user-attachments/assets/ce032c32-4bd2-4a9d-b503-8309a2ec7e64" />
+
+Architecture Link 
+<img width="1340" height="789" alt="image" src="https://github.com/user-attachments/assets/899d714f-f4d8-4978-8160-a36fedb3c752" />
+
+Video Demo Link : 
+https://drive.google.com/file/d/1NlxhzEKWw6GA4C4vxHOChOMIM3SEW3ne/view?usp=sharing
+
+
+
+
+
+ s=your-username/ai-vault&type=Date) LicenseMIT © 2025Built with  using React, Python, and a lot of AI magic.
 
