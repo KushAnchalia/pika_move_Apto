@@ -85,7 +85,7 @@ npm start
 ### The Expected Output 
 
 
-<img width="618" height="565" alt="image" src="https://github.com/user-attachments/assets/b964b7ad-22e4-4a10-919a-b6339afdba48" />
+<img width="728" height="354" alt="image" src="https://github.com/user-attachments/assets/b2e9697b-3a0e-4dda-971f-a970588167e9" />
 <img width="774" height="682" alt="image" src="https://github.com/user-attachments/assets/ce032c32-4bd2-4a9d-b503-8309a2ec7e64" />
 
 ### Architecture Diagram 
