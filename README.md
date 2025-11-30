@@ -36,14 +36,14 @@ Copy code
 
 ---
 
-### 1. Backend Setup (Python)
+## 1. Backend Setup (Python)
 
-The backend receives encrypted data, orchestrates AI calls, and interacts with external services like Pinata (IPFS).
+The backend handles receiving encrypted data, orchestrating AI calls, and interacting with external services like Pinata (IPFS).
 
-#### A. Setup Environment and Dependencies
+### A. Setup Environment and Dependencies
 
-Navigate to the root project directory (where this `README.md` is located).  
-Create and activate a Python virtual environment:
+1. Navigate to the root project directory (where this `README.md` is located).  
+2. Create and activate a Python virtual environment:
 
 ```bash
 # Windows
@@ -59,7 +59,9 @@ bash
 Copy code
 pip install -r ai-worker/requirements.txt
 B. Configure Secrets (.env)
-Create a .env file inside the ai-worker/ directory with your API keys:
+Create a .env file inside the ai-worker/ directory.
+
+Add your API keys in the following format:
 
 env
 Copy code
@@ -77,18 +79,18 @@ PINATA_API_SECRET=your_pinata_api_secret_here
 
 # Getimg API Key (for image generation)
 GETIMG_API_KEY=your_getimg_api_key_here
-⚠️ Do not commit .env files. Add it to .gitignore to keep secrets safe.
+⚠️ Do not commit .env files. Add them to .gitignore to keep secrets safe.
 
 C. Run the Backend Server
-With the virtual environment activated:
+With the virtual environment activated, run:
 
 bash
 Copy code
 python ai-worker/server.py
-The backend should now be running at http://localhost:4000.
+The backend will be running at: http://localhost:4000.
 
 2. Frontend Setup (Node.js)
-The frontend is a React application for file selection and results display.
+The frontend is a React application that handles file selection and displays results.
 
 A. Install Dependencies
 bash
@@ -112,10 +114,7 @@ Click Upload.
 
 The backend processes the hash, interacts with AI services, generates a mock transaction, and returns metadata (session key, TX hash, AI image URL, QR code).
 
-View the results displayed on the frontend.
+View the results displayed on the frontend interface.
 
 🤝 Contributing
 Contributions are welcome! Open issues or submit pull requests for improvements or bug fixes.
-
-pgsql
-Copy code
